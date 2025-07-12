@@ -1,0 +1,44 @@
+{
+  "name": "medtrack-client",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:client": "cd ../client && npm install && npm run build && cp -r build ../server/build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "axios": "^1.6.0",
+    "tailwindcss": "^3.2.7",
+    "react-scripts": "^5.0.1",
+    "framer-motion": "^10.0.0",
+    "react-calendar": "^4.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "chart.js": "^4.4.0",
+    "@heroicons/react": "^2.0.13",
+    "three": "^0.149.0",
+    "i18next": "^23.7.6",
+    "react-i18next": "^13.5.0",
+    "tesseract.js": "^5.0.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

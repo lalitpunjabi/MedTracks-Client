@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Slider Styles */
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+/* Health Tips */
+.health-tip {
+  @apply bg-health-blue text-white p-4 rounded-lg shadow-lg;
+}
+
+/* OCR Scanner */
+.scanner-container {
+  @apply border-2 border-health-green p-4 rounded-lg;
+}
+
+.high-contrast {
+  filter: contrast(1.5) brightness(1.2) grayscale(0.1) !important;
+  background: #000 !important;
+  color: #fff !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Floating animation for hero SVG illustration */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}

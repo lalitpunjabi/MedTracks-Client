@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "medicines": "Medicines",
+    "aiAssistant": "AI Assistant",
+    "calendar": "Calendar",
+    "analytics": "Analytics",
+    "profile": "Profile",
+    "healthTips": "Health Tips"
+  },
+  "landing": {
+    "hero": "Your Smart Health Companion",
+    "subhero": "Track, manage, and optimize your medication routine with AI",
+    "cta": "Get Started",
+    "ctaLogin": "Login",
+    "features": "Why Choose MedTrack?",
+    "feature1": "Track Medicines",
+    "feature1Desc": "Effortlessly log and monitor your medicine intake.",
+    "feature2": "AI Insights",
+    "feature2Desc": "Voice-enabled AI for instant medicine details.",
+    "feature3": "Reminders & Sync",
+    "feature3Desc": "Get reminders and sync with Google Calendar.",
+    "testimonials": "What Our Users Say",
+    "faq": "Frequently Asked Questions",
+    "faq1": "How does MedTrack ensure privacy?",
+    "faq1Ans": "We use JWT authentication and encrypt sensitive data.",
+    "faq2": "Can I use voice commands?",
+    "faq2Ans": "Yes, our AI Assistant supports voice input.",
+    "signup": "Ready to Transform Your Health Routine?",
+    "signupCta": "Sign Up Now",
+    "newsletter": "Stay Updated with Health Tips",
+    "newsletterPlaceholder": "Enter your email",
+    "newsletterButton": "Subscribe"
+  }
+}
