@@ -5,7 +5,7 @@ function GoogleCalendarSync({ medicine }) {
     try {
       const token = localStorage.getItem('token');
       await axios.post(
-        'http://localhost:5000/api/medicines/sync-calendar',
+        'https://medtracks-server.onrender.com//api/medicines/sync-calendar',
         { medicineId: medicine._id },
         { headers: { Authorization: `Bearer ${token}` } }
       );

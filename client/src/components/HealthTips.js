@@ -5,7 +5,7 @@ const HealthTips = () => {
   const [tips, setTips] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/health-tips')
+    axios.get('https://medtracks-server.onrender.com//api/health-tips')
       .then(res => setTips(res.data.tips))
       .catch(() => setTips([]));
   }, []);

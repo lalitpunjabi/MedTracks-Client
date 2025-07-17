@@ -69,7 +69,7 @@
      ```bash
      npm start
      ```
-   - The client runs on [http://localhost:3000](http://localhost:3000), server on [http://localhost:5000](http://localhost:5000).
+   - The client runs on [http://localhost:3000](http://localhost:3000), server on [https://medtracks-server.onrender.com/](https://medtracks-server.onrender.com/).
 
 ## 🌐 Deployment
 
