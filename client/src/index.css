@@ -43,3 +43,16 @@ html {
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
+
+/* Glassmorphism utilities */
+.bg-glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+}
+.bg-glass-dark {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(12px);
+}
+.shadow-glass {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}

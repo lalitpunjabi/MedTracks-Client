@@ -54,12 +54,12 @@ const MedicineManager = () => {
             {editIdx === idx ? (
               <div className="flex gap-2 items-center">
                 <input value={editName} onChange={e => setEditName(e.target.value)} className="p-2 rounded text-black flex-1" />
-                <button onClick={() => saveEdit(idx)} className="bg-health-green px-3 py-1 rounded">Save</button>
+                <button onClick={() => saveEdit(idx)} className="bg-health-green px-3 py-1 rounded focus:outline-none focus:ring-2 focus:ring-health-blue">Save</button>
               </div>
             ) : (
               <div className="flex justify-between items-center">
                 <div className="text-2xl font-bold">{med.name}</div>
-                <button onClick={() => startEdit(idx)} className="bg-white/30 px-2 py-1 rounded">Edit</button>
+                <button onClick={() => startEdit(idx)} className="bg-white/30 px-2 py-1 rounded focus:outline-none focus:ring-2 focus:ring-health-blue">Edit</button>
               </div>
             )}
             <div className="flex justify-between items-center mt-2">
@@ -67,13 +67,13 @@ const MedicineManager = () => {
               <div className="capitalize px-3 py-1 rounded-full bg-white/30 text-xs font-semibold">{med.status}</div>
             </div>
             <div className="flex gap-2 mt-4">
-              <button className="bg-health-green px-3 py-1 rounded text-white">Log Dose</button>
-              <button onClick={() => removeMed(idx)} className="bg-red-500 px-3 py-1 rounded text-white">Remove</button>
+              <button className="bg-health-green px-3 py-1 rounded text-white focus:outline-none focus:ring-2 focus:ring-health-blue">Log Dose</button>
+              <button onClick={() => removeMed(idx)} className="bg-red-500 px-3 py-1 rounded text-white focus:outline-none focus:ring-2 focus:ring-health-blue">Remove</button>
             </div>
           </div>
         ))}
       </div>
-      <button className="mt-8 bg-health-blue text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-health-accent transition" onClick={handleSubmit}>Add New Medicine</button>
+      <button className="mt-8 bg-health-blue text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-health-accent transition focus:outline-none focus:ring-2 focus:ring-health-blue" onClick={handleSubmit}>Add New Medicine</button>
     </div>
   );
 };

@@ -12,7 +12,7 @@ function ExportPDF({ medicines }) {
   return (
     <button
       onClick={generateLaTeX}
-      className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+      className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-health-blue"
     >
       Export PDF
     </button>

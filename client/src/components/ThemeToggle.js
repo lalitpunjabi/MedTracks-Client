@@ -13,7 +13,7 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 transition-colors shadow hover:scale-110"
+      className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 transition-colors shadow hover:scale-110 focus:outline-none focus:ring-2 focus:ring-health-blue"
       aria-label="Toggle dark/light mode"
     >
       {theme === 'dark' ? <SunIcon className="w-6 h-6 text-yellow-400" /> : <MoonIcon className="w-6 h-6 text-blue-600" />}

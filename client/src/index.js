@@ -8,6 +8,7 @@ import enTranslation from './locales/en/translation.json';
 import esTranslation from './locales/es/translation.json';
 import hiTranslation from './locales/hi/translation.json';
 import { ThemeProvider } from './theme/ThemeContext';
+import ErrorBoundary from './components/ErrorBoundary';
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -22,7 +23,9 @@ i18n.use(initReactI18next).init({
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ThemeProvider>
-    <App />
-  </ThemeProvider>
+  <ErrorBoundary>
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  </ErrorBoundary>
 );

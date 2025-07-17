@@ -51,7 +51,7 @@ function Register() {
               className="w-full p-2 border rounded dark:bg-gray-700 dark:text-white"
             />
           </div>
-          <button type="submit" className="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700">
+          <button type="submit" className="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-health-blue">
             Register
           </button>
         </form>

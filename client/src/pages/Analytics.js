@@ -58,7 +58,7 @@ function Analytics() {
         <p className="text-lg font-semibold">Current Streak: {streak} days 🔥</p>
         <p>Keep up your consistency!</p>
       </div>
-      <button onClick={exportCSV} className="bg-health-blue text-white px-4 py-2 rounded mb-4">
+      <button onClick={exportCSV} className="bg-health-blue text-white px-4 py-2 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-health-blue">
         Export CSV
       </button>
       <div className="mt-4 p-4 bg-gray-100 rounded">[Predictive insights here]</div>

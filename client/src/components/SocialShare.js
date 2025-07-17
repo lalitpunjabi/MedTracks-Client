@@ -9,7 +9,7 @@ const SocialShare = ({ streak }) => {
         href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-blue-500 text-white px-4 py-2 rounded"
+        className="bg-blue-500 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-health-blue"
       >
         Share on Twitter
       </a>
@@ -17,7 +17,7 @@ const SocialShare = ({ streak }) => {
         href={`https://wa.me/?text=${encodeURIComponent(shareText)}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-green-500 text-white px-4 py-2 rounded"
+        className="bg-green-500 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-health-blue"
       >
         Share on WhatsApp
       </a>

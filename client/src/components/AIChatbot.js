@@ -26,7 +26,7 @@ const AIChatbot = () => {
   return (
     <>
       <button
-        className="fixed bottom-8 right-8 z-50 bg-health-blue text-white p-4 rounded-full shadow-lg hover:bg-health-green transition"
+        className="fixed bottom-8 right-8 z-50 bg-health-blue text-white p-4 rounded-full shadow-lg hover:bg-health-green transition focus:outline-none focus:ring-2 focus:ring-health-blue"
         onClick={() => setOpen((o) => !o)}
         aria-label="Open AI Chatbot"
       >
@@ -50,7 +50,7 @@ const AIChatbot = () => {
               onKeyDown={e => e.key === 'Enter' && sendMessage()}
               placeholder="Ask a health question..."
             />
-            <button onClick={sendMessage} className="ml-2 p-2 bg-health-green rounded-full text-white hover:bg-health-accent transition">
+            <button onClick={sendMessage} className="ml-2 p-2 bg-health-green rounded-full text-white hover:bg-health-accent transition focus:outline-none focus:ring-2 focus:ring-health-blue">
               <PaperAirplaneIcon className="w-5 h-5" />
             </button>
           </div>

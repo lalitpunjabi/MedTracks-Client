@@ -30,7 +30,7 @@ function VoiceAssistant({ onResult }) {
     <div className="flex items-center space-x-2">
       <button
         onClick={() => setIsListening(!isListening)}
-        className={`p-2 rounded-full ${isListening ? 'bg-red-600' : 'bg-blue-600'} text-white`}
+        className={`p-2 rounded-full ${isListening ? 'bg-red-600' : 'bg-blue-600'} text-white focus:outline-none focus:ring-2 focus:ring-health-blue`}
       >
         <MicrophoneIcon className="w-6 h-6" />
       </button>

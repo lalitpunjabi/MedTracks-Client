@@ -18,7 +18,7 @@ function GoogleCalendarSync({ medicine }) {
   return (
     <button
       onClick={syncToGoogleCalendar}
-      className="mt-2 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+      className="mt-2 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-health-blue"
     >
       Sync to Google Calendar
     </button>

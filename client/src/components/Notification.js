@@ -20,7 +20,7 @@ const Notification = ({ medicine, time }) => {
   return (
     <button
       onClick={sendNotification}
-      className="bg-health-accent text-white px-3 py-1 rounded shadow hover:bg-health-green transition mt-2"
+      className="bg-health-accent text-white px-3 py-1 rounded shadow hover:bg-health-green transition mt-2 focus:outline-none focus:ring-2 focus:ring-health-blue"
     >
       Remind Me
     </button>

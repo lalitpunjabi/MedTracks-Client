@@ -48,7 +48,7 @@ const Profile = () => {
             </select>
           </div>
         </div>
-        <button className="mt-8 bg-health-green text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-health-accent transition">Save Changes</button>
+        <button className="mt-8 bg-health-green text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-health-accent transition focus:outline-none focus:ring-2 focus:ring-health-blue">Save Changes</button>
       </div>
     </div>
   );

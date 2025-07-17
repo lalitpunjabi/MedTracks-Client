@@ -48,9 +48,9 @@ const Dashboard = () => {
         <div className="flex-1 bg-white/80 dark:bg-glass-dark rounded-2xl p-6 shadow">
           <h4 className="font-bold text-health-blue dark:text-health-green mb-2">Quick Actions</h4>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-health-green text-white px-4 py-2 rounded shadow hover:bg-health-accent transition">Add Medicine</button>
-            <button className="bg-health-blue text-white px-4 py-2 rounded shadow hover:bg-health-accent transition">Log Dose</button>
-            <button className="bg-health-accent text-white px-4 py-2 rounded shadow hover:bg-health-green transition">Export Data</button>
+            <button className="bg-health-green text-white px-4 py-2 rounded shadow hover:bg-health-accent transition focus:outline-none focus:ring-2 focus:ring-health-blue">Add Medicine</button>
+            <button className="bg-health-blue text-white px-4 py-2 rounded shadow hover:bg-health-accent transition focus:outline-none focus:ring-2 focus:ring-health-blue">Log Dose</button>
+            <button className="bg-health-accent text-white px-4 py-2 rounded shadow hover:bg-health-green transition focus:outline-none focus:ring-2 focus:ring-health-blue">Export Data</button>
           </div>
         </div>
         <div className="flex-1 bg-white/80 dark:bg-glass-dark rounded-2xl p-6 shadow">

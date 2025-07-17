@@ -112,7 +112,7 @@ const LandingPage = () => {
               </div>
             ))}
           </div>
-          <a href="/register" className="inline-block bg-health-green text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-health-accent focus:scale-105 hover:scale-105 transition-transform duration-200" aria-label="Get Started with MedTrack">Get Started</a>
+          <a href="/register" className="inline-block bg-health-green text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-health-accent focus:scale-105 hover:scale-105 transition-transform duration-200 focus:outline-none focus:ring-2 focus:ring-health-blue" aria-label="Get Started with MedTrack">Get Started</a>
         </div>
       </header>
       <section className="w-full max-w-5xl mx-auto py-12">
@@ -146,7 +146,7 @@ const LandingPage = () => {
               aria-label="Email address"
               required
             />
-            <button type="submit" className="bg-health-green text-white px-6 py-3 rounded font-semibold hover:bg-health-accent focus:scale-105 hover:scale-105 transition-transform duration-200" aria-label="Subscribe to newsletter">Subscribe</button>
+            <button type="submit" className="bg-health-green text-white px-6 py-3 rounded font-semibold hover:bg-health-accent focus:scale-105 hover:scale-105 transition-transform duration-200 focus:outline-none focus:ring-2 focus:ring-health-blue" aria-label="Subscribe to newsletter">Subscribe</button>
           </form>
           {newsletterStatus === 'success' && (
             <div className="mt-4 text-green-600 font-semibold">Thank you for subscribing!</div>
