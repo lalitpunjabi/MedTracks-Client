@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "dashboard": "Tablero",
+    "medicines": "Medicinas",
+    "aiAssistant": "Asistente AI",
+    "calendar": "Calendario",
+    "analytics": "Analítica",
+    "profile": "Perfil",
+    "healthTips": "Consejos de Salud"
+  },
+  "landing": {
+    "hero": "Tu Compañero de Salud Inteligente",
+    "subhero": "Sigue, gestiona y optimiza tu rutina de medicamentos con IA",
+    "cta": "Comenzar",
+    "ctaLogin": "Iniciar Sesión",
+    "features": "¿Por qué elegir MedTrack?",
+    "feature1": "Seguimiento de Medicamentos",
+    "feature1Desc": "Registra y monitorea tus medicamentos sin esfuerzo.",
+    "feature2": "Perspectivas de IA",
+    "feature2Desc": "IA activada por voz para detalles de medicamentos instantáneos.",
+    "feature3": "Recordatorios y Sincronización",
+    "feature3Desc": "Recibe recordatorios y sincroniza con Google Calendar.",
+    "testimonials": "Lo que Dicen Nuestros Usuarios",
+    "faq": "Preguntas Frecuentes",
+    "faq1": "¿Cómo garantiza MedTrack la privacidad?",
+    "faq1Ans": "Usamos autenticación JWT y encriptamos datos sensibles.",
+    "faq2": "¿Puedo usar comandos de voz?",
+    "faq2Ans": "Sí, nuestro Asistente de IA soporta entrada de voz.",
+    "signup": "¿Listo para Transformar tu Rutina de Salud?",
+    "signupCta": "Regístrate Ahora",
+    "newsletter": "Mantente Actualizado con Consejos de Salud",
+    "newsletterPlaceholder": "Ingresa tu correo",
+    "newsletterButton": "Suscribirse"
+  }
+}
