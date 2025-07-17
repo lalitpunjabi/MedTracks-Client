@@ -9,7 +9,7 @@ const HealthTips = () => {
   useEffect(() => {
     setLoading(true);
     setError(null);
-    axios.get('https://medtracks-server.onrender.com//api/health-tips')
+    axios.get('https://medtracks-server.onrender.com/api/health-tips')
       .then(res => {
         setTips(res.data.tips);
         setLoading(false);

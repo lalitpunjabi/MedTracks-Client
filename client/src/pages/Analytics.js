@@ -13,7 +13,7 @@ function Analytics() {
   useEffect(() => {
     const fetchIntakes = async () => {
       const token = localStorage.getItem('token');
-      const res = await axios.get('https://medtracks-server.onrender.com//api/intake', {
+      const res = await axios.get('https://medtracks-server.onrender.com/api/intake', {
         headers: { Authorization: `Bearer ${token}` },
       });
       setIntakes(res.data.intakes);

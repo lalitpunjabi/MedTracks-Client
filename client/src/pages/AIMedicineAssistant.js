@@ -8,7 +8,7 @@ function AIMedicineAssistant() {
 
   const handleSearch = async () => {
     try {
-      const res = await axios.get(`https://medtracks-server.onrender.com//api/ai/medicine-details?medicineName=${medicineName}`);
+      const res = await axios.get(`https://medtracks-server.onrender.com/api/ai/medicine-details?medicineName=${medicineName}`);
       setDetails(res.data);
     } catch (error) {
       alert('Failed to fetch details');

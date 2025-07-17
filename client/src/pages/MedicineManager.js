@@ -35,7 +35,7 @@ const MedicineManager = () => {
     e.preventDefault();
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.post('https://medtracks-server.onrender.com//api/medicines', { name: editName, type: 'tablet', purpose: '', dosage: '', doctorName: '', startDate: '', endDate: '', schedule: [{ time: '', dose: '' }] }, {
+      const res = await axios.post('https://medtracks-server.onrender.com/api/medicines', { name: editName, type: 'tablet', purpose: '', dosage: '', doctorName: '', startDate: '', endDate: '', schedule: [{ time: '', dose: '' }] }, {
         headers: { Authorization: `Bearer ${token}` },
       });
       setMeds([...meds, { name: res.data.name, status: 'active', time: res.data.schedule[0].time }]);

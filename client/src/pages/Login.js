@@ -10,7 +10,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('https://medtracks-server.onrender.com//api/login', { email, password });
+      const res = await axios.post('https://medtracks-server.onrender.com/api/login', { email, password });
       localStorage.setItem('token', res.data.token);
       navigate('/dashboard');
     } catch (error) {
